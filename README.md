@@ -3,10 +3,15 @@ A command-line based Image Steganography application developed in C using the Le
 
 Features
 Encode Secret Data: Conceal arbitrary text payloads inside carrier BMP images without visual degradation.
+
 Decode Secret Data: Extract and reconstruct the concealed secret file from the stego image.
+
 Capacity Validation: Automatically verifies if the carrier image has sufficient pixel data to hold the secret payload before encoding.
+
 Header Integrity Protection: Skips and preserves the standard 54-byte BMP header to keep the output image readable by standard image viewers.
+
 Authentication via Magic String: Embeds and checks a predefined signature to ensure only valid stego images can be decoded.
+
 Dynamic File Handling: Stores and retrieves file extension sizes, extensions, and file lengths dynamically.
 
 Technologies Used
