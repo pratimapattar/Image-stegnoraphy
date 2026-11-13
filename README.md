@@ -40,6 +40,7 @@ For example:
 Original pixel byte : 10110110
 Secret data bit     :        1
 Modified pixel byte : 10110111
+```
 
 Author
 Pratima C Pattar
